@@ -9,6 +9,10 @@ html {
   background-size: 64px auto;
 }
 
+h1 {
+  color: #fff;
+}
+
 .logo {
   text-align: center;
 }
@@ -19,10 +23,19 @@ html {
 
 .nav a {
   text-decoration: none;
+  background-color: #467366;
+  border: 3px solid #2d5a4d;
+  color: #fff;
+  border-radius: 8px;
 }
 
 .nav a:hover {
-
+  background-color: #fff;
+  background-size: 64px auto;
+  background-image: url("../images/leaf-icon.svg");
+  background-repeat: repeat-y;
+  background-position: .75em;
+  color: #467366;
 }
 
 .banner {
